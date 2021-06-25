@@ -1,0 +1,48 @@
+.game {
+    background-image: url('img/bg.jpg');
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+.cube {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.cube__red {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+}
+.food {
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 0;
+}
+
+.counter {
+    position: absolute;
+    right: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+.counter__red {
+    position: absolute;
+    left: 50px;
+}
